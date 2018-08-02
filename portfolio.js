@@ -6,7 +6,7 @@ $("body").on("click", ".pjct-img", function(){
     $(".link-area").html(linkImg);
     $(linkImg).addClass("link-img");
     $(linkImg).find("img").addClass("link-img");
-    $(linkImg).append("<h3>Working<h3>")
+    // $(linkImg).append("<h3>Working<h3>")
 });
 
 $(".toggle-btns").on("click", ".display-btn", function(){

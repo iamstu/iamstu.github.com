@@ -38,7 +38,7 @@ body, html{
 .portfolio-btn{
     border: #cccccc;
     border-style: solid;
-    border-width: 0px 1px 0px 1px;
+    border-width: 0px 0px 0px 1px;
 }
 
 .display-btn{
@@ -140,4 +140,14 @@ h3{
     padding: 20px 0 20px 0;
     background-color: #4aaaa5;
     /* opacity: 0; */
+}
+
+.fa-linkedin{
+    /* width: 10px; */
+    color: rgb(0,119,181);
+    /* background-color: #fff */
+}
+
+.fa-github-square{
+    color: rgb(36,41,46)
 }

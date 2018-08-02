@@ -6,12 +6,11 @@ $("body").on("click", ".pjct-img", function(){
     $(".link-area").html(linkImg);
     $(linkImg).addClass("link-img");
     $(linkImg).find("img").addClass("link-img");
+    $(linkImg).append("<h3>Working<h3>")
 });
 
 $(".toggle-btns").on("click", ".display-btn", function(){
-    console.log(this.textContent);
     viewState = this.textContent.toLowerCase();
-    console.log(viewState);
     toggleView();
 });
  
@@ -25,3 +24,12 @@ function toggleView(){
     }
 }
 toggleView();
+
+
+$(".link-area").on("mouseenter", "figure",function(event){
+    console.log("enter figure")
+})
+
+$(".link-area").on("mouseleave", "figure",function(event){
+    console.log("leave figure")
+})

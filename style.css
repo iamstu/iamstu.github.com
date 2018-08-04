@@ -134,12 +134,37 @@ figure {
 }
 
 h3{
+    text-align: center;
+    color: #000;
+    text-decoration: underline;
+}
+
+h3:hover{
+    color: #a54aaa;
+}
+
+h3:active{
+    color: #4faa4a;
+}
+
+.pLink{
     position: absolute;
-    top: 10px;
+    top: 0px;
     width: 100%;
-    padding: 20px 0 20px 0;
+    line-height: 2;
+    padding: 5px 0 5px 0;
     background-color: #4aaaa5;
-    /* opacity: 0; */
+    opacity: 0;
+}
+
+.gLink{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    line-height: 2;
+    padding: 5px 0 5px 0;
+    background-color: #4aaaa5;
+    opacity: 0;
 }
 
 .fa-linkedin{

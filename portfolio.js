@@ -6,6 +6,12 @@ $(".project-figure").hover( function() {
   // $(this).fadeIn(100);
 })
 
+$("button").click( "scroll", function() {
+  $('html,body').animate({
+      scrollTop: $(".pjcts").offset().top},
+      'slow');
+});
+
 // $("body").on("click", ".pjct-img", function(){
 //     pLink = $(this).attr("data-img");
 //     gLink = $(this).attr("data-git");

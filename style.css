@@ -244,35 +244,91 @@ h3{
   margin: 10px;
   float: left;
   /* clear: both; */
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .p-icon{
   display: inline-block;
   /* margin: 30px 0px 0px 20px; */
   position: absolute;
-  top: 35px;
-  left: 65px;
+  top: 15px;
+  left: 31px;
 }
 
 .g-icon{
   position: absolute;
-  top: 35px;
-  right: 65px;
+  top: 12px;
+  right: 36px;
 }
 
 .code{
   display: block;
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1059px) {
+
+  .project{
+    margin-bottom: 40px;
+  }
+
+  .fa-proj{
+    font-size: 4rem;
+  }
+
+  .g-icon{
+    position: absolute;
+    top: 33px;
+    right: 25px;
+  }
+
+  .p-icon{
+    display: inline-block;
+    /* margin: 30px 0px 0px 20px; */
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+
+  .code{
+    font-size: 14px;
+  }
+}
+
+/* 769 */
+
+/* 359 */
+
 @media screen and (max-width: 719px) {
+
   .tag {
     font-size: 12px;
     bottom: -40px;
     margin: 0 auto;
   }
+
   .project{
     margin-bottom: 40px;
+  }
+
+  .fa-proj{
+    font-size: 2rem;
+  }
+
+  .g-icon{
+    position: absolute;
+    top: 18px;
+    right: 5px;
+  }
+
+  .p-icon{
+    display: inline-block;
+    /* margin: 30px 0px 0px 20px; */
+    position: absolute;
+    top: 19px;
+    left: 0px;
+  }
+
+  .code{
+    font-size: 14px;
   }
 }

@@ -1,8 +1,24 @@
+const reveal= function () {
+  } 
 
-$(".project-figure").hover( function() {
-  $(this).find(".description").stop(true, false).fadeIn(500);},
-  function() {
+
+$(".project-figure").on("mouseenter touchend", function() {
+ 
+  $(this).find(".description").stop(true, false).delay(250).fadeIn(500)
+  
+  // reveal()
+  // function() {
+  // $(this).find(".description").stop(true, false).fadeOut(500);
+
+  // $(this).fadeIn(100);
+})
+
+$(".project-figure").on("mouseleave", function() {
+ 
+  // $(this).find(".description").stop(true, false).fadeIn(500)
+  // function() {
   $(this).find(".description").stop(true, false).fadeOut(500);
+
   // $(this).fadeIn(100);
 })
 

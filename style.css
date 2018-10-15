@@ -236,3 +236,43 @@ h3{
   margin: 0 auto;
   border-radius: 45%;
 }
+
+.fa-proj{
+
+  color: #fff;
+  /* position: absolute; */
+  margin: 10px;
+  float: left;
+  /* clear: both; */
+  font-size: 3rem;
+}
+
+.p-icon{
+  display: inline-block;
+  /* margin: 30px 0px 0px 20px; */
+  position: absolute;
+  top: 35px;
+  left: 65px;
+}
+
+.g-icon{
+  position: absolute;
+  top: 35px;
+  right: 65px;
+}
+
+.code{
+  display: block;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 719px) {
+  .tag {
+    font-size: 12px;
+    bottom: -40px;
+    margin: 0 auto;
+  }
+  .project{
+    margin-bottom: 40px;
+  }
+}
